@@ -1,0 +1,37 @@
+.imgFondo{
+	background-image: url("../Img/Fondo1.jpg");
+	max-width: 100% !important;
+	max-height: 100% !important;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+    /*background-size: 100% 100%;*/
+	margin: 0px;
+	
+}
+.content_Login{
+    height: 350px;
+	box-shadow: 20px 10px 5px 0px rgba(0,0,0,0.75);
+	background: rgba(255,255,255,0.82);
+    margin-left: 30% !important;
+    border-radius: 4px;
+    margin-top: 10%;
+    padding: 15px;
+
+}
+.content_Registro{
+    height: 500px;
+	box-shadow: 20px 10px 5px 0px rgba(0,0,0,0.75);
+	background: rgba(255,255,255,0.82);
+    margin-left: 30% !important;
+    border-radius: 4px;
+    margin-top: 5%;
+    padding: 10px;
+}
+.content_Login label, a, .content_Registro label, a{
+	color: #000;
+	font-weight: 700;
+}
+.centrarText{
+	text-align: center;
+}
